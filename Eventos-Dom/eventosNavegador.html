@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Navegador</title>
+    <style>
+        div{
+            width: 150px;
+            height: 2000px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body onresize="acao()" onscroll="acao1">
+    <!-- Eventos Navegador
+    - onresize = Quando o navegador é redimensionado
+    - onscroll = Quando rolar a pagina  -->
+
+    <script>
+        function acao(){
+            console.log('Evento Disparado')
+        }
+        function acao1(){
+            console.log('Evento Disparado')
+        }
+    </script>
+    <div></div>
+</body>
+</html>
